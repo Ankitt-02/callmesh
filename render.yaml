@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: callmesh-backend
+    env: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: PORT
+        value: 8000
+      - key: MONGODB_URI
+        sync: false
