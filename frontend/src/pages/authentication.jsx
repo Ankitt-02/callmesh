@@ -1,6 +1,5 @@
 import React, { useState, useContext, useEffect } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
-import VideocamIcon from '@mui/icons-material/Videocam';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutlineOutlined';
 import BadgeOutlinedIcon from '@mui/icons-material/BadgeOutlined';
@@ -116,7 +115,7 @@ export default function Authentication() {
                 <div style={{ textAlign: 'center', marginBottom: '1.5rem', cursor: 'pointer' }} onClick={() => navigate('/')}>
                     <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.6rem' }}>
                         <div className="brandIcon">
-                            <VideocamIcon fontSize="large" />
+                            <img src="/callmesh-logo.svg" alt="CallMesh Logo" className="brandLogoImg lg" />
                         </div>
                         <span className="brandName" style={{ fontSize: '1.9rem' }}>
                             Call<span className="brandMesh">Mesh</span>

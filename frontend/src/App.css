@@ -57,6 +57,24 @@
   font-size: 1.9rem;
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.brandLogoImg {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  display: block;
+}
+
+.brandLogoImg.lg {
+  width: 38px;
+  height: 38px;
+}
+
+.brandLogoImg.sm {
+  width: 26px;
+  height: 26px;
 }
 
 .brandName {

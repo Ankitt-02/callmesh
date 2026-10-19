@@ -1,7 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-import VideocamIcon from '@mui/icons-material/Videocam';
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
@@ -76,7 +75,7 @@ function History() {
 
                     <div className="brandLogo" onClick={() => navigate('/home')}>
                         <div className="brandIcon">
-                            <VideocamIcon fontSize="inherit" />
+                            <img src="/callmesh-logo.svg" alt="CallMesh Logo" className="brandLogoImg" />
                         </div>
                         <span className="brandName">
                             Call<span className="brandMesh">Mesh</span> History

@@ -237,7 +237,7 @@ callmesh/
 ├── frontend/
 │   ├── public/
 │   │   ├── Neon Night Video Call Connection .png  # Hero background asset
-│   │   └── vite.svg
+│   │   └── callmesh-logo.svg      # Official CallMesh C-camera neon SVG logo
 │   ├── src/
 │   │   ├── contexts/
 │   │   │   └── AuthContext.jsx        # Persistent auth context & token management

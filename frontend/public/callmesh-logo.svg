@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">CallMesh camera C logo</title>
+  <defs>
+    <linearGradient id="callmesh-gradient" x1="18" y1="12" x2="103" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d43cff"/>
+      <stop offset="0.48" stop-color="#8b3dff"/>
+      <stop offset="1" stop-color="#5265ff"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#callmesh-gradient)" d="
+    M 83 17
+    H 48
+    C 27 17 12 32 12 53
+    V 76
+    C 12 97 27 112 48 112
+    H 83
+    C 88 112 92 108 92 103
+    V 89
+    C 92 84 88 81 83 81
+    H 49
+    C 40 81 35 76 35 67
+    V 61
+    C 35 52 40 47 49 47
+    H 83
+    C 88 47 92 43 92 38
+    V 26
+    C 92 21 88 17 83 17
+    Z"/>
+  <path fill="url(#callmesh-gradient)" d="
+    M 99 43
+    L 119 34
+    C 123 32 127 35 127 40
+    V 88
+    C 127 93 123 96 119 94
+    L 99 85
+    C 96 84 94 81 94 77
+    V 51
+    C 94 47 96 44 99 43
+    Z"/>
+</svg>

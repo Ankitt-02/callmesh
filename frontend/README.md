@@ -1,16 +1,38 @@
-# React + Vite
+# CallMesh Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modern, high-performance WebRTC video calling and real-time collaboration interface built with React 19 and Vite.
 
-Currently, two official plugins are available:
+## Overview
+CallMesh is a peer-to-peer video conferencing web application designed with a dark neon violet/indigo visual identity, responsive navigation, and robust WebRTC mesh connections.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- **Mesh Video Calling**: Multi-peer mesh connections powered by WebRTC and Socket.IO signaling.
+- **Controls & Media Fallbacks**: Microphone mute, camera toggle with custom initial avatar fallback, and screen sharing.
+- **In-Call Collaboration**: Real-time side drawer chat with unread message badges and sound notifications.
+- **Authentication**: JWT-based authentication supporting both email and username registration/sign-in.
+- **Meeting History**: Instant logging and review of past meeting rooms with one-click re-join and code copy.
 
-## React Compiler
+## Technology Stack
+- **Framework**: React 19 + Vite 7
+- **Routing**: React Router DOM 7
+- **Design System & Components**: Material-UI (MUI v9) + Emotion + Custom CSS
+- **Signaling Client**: Socket.IO Client v4
+- **Real-Time Engine**: Native WebRTC (`RTCPeerConnection`, Google STUN)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
 
-## Expanding the ESLint configuration
+### Prerequisites
+- Node.js 18+
+- npm 9+
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Development Server
+```bash
+npm install
+npm run dev
+```
+
+### Production Build
+```bash
+npm run build
+npm run preview
+```

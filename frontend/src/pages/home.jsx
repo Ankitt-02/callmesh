@@ -1,6 +1,5 @@
 import React, { useContext, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import VideocamIcon from '@mui/icons-material/Videocam';
 import RestoreIcon from '@mui/icons-material/Restore';
 import LogoutIcon from '@mui/icons-material/Logout';
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutlineOutlined';
@@ -43,7 +42,7 @@ function HomeComponent() {
             <header className="dashboardNav">
                 <div className="brandLogo" onClick={() => navigate('/')}>
                     <div className="brandIcon">
-                        <VideocamIcon fontSize="inherit" />
+                        <img src="/callmesh-logo.svg" alt="CallMesh Logo" className="brandLogoImg" />
                     </div>
                     <span className="brandName">
                         Call<span className="brandMesh">Mesh</span>

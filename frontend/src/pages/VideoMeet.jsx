@@ -598,7 +598,7 @@ export default function VideoMeetComponent() {
                             onClick={() => navigate('/home')}
                         >
                             <div className="brandIcon">
-                                <VideocamIcon fontSize="large" />
+                                <img src="/callmesh-logo.svg" alt="CallMesh Logo" className="brandLogoImg lg" />
                             </div>
                             <span className="brandName" style={{ fontSize: '1.8rem' }}>
                                 Call<span className="brandMesh">Mesh</span>
@@ -659,8 +659,8 @@ export default function VideoMeetComponent() {
                     {/* Top Navigation & Status Bar */}
                     <div className={styles.meetTopBar}>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', cursor: 'pointer' }} onClick={() => navigate('/home')}>
-                            <div className="brandIcon" style={{ width: '32px', height: '32px', fontSize: '1.1rem' }}>
-                                <VideocamIcon fontSize="inherit" />
+                            <div className="brandIcon" style={{ width: '32px', height: '32px' }}>
+                                <img src="/callmesh-logo.svg" alt="CallMesh Logo" className="brandLogoImg sm" />
                             </div>
                             <span className="brandName" style={{ fontSize: '1.2rem' }}>
                                 Call<span className="brandMesh">Mesh</span>

@@ -1,6 +1,5 @@
 import React, { useContext } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import VideocamIcon from '@mui/icons-material/Videocam';
+import { useNavigate } from 'react-router-dom';
 import FlashOnIcon from '@mui/icons-material/FlashOn';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import GroupIcon from '@mui/icons-material/Group';
@@ -32,7 +31,7 @@ export default function LandingPage() {
             <nav className="landingNav">
                 <div className="brandLogo" onClick={() => navigate('/')}>
                     <div className="brandIcon">
-                        <VideocamIcon fontSize="inherit" />
+                        <img src="/callmesh-logo.svg" alt="CallMesh Logo" className="brandLogoImg" />
                     </div>
                     <span className="brandName">
                         Call<span className="brandMesh">Mesh</span>
@@ -256,8 +255,8 @@ export default function LandingPage() {
 
             {/* Footer Section */}
             <footer className="landingFooter">
-                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                    <VideocamIcon style={{ color: '#a855f7' }} />
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
+                    <img src="/callmesh-logo.svg" alt="CallMesh Logo" className="brandLogoImg sm" />
                     <span style={{ fontWeight: 600, color: '#ffffff' }}>CallMesh</span>
                     <span>— High-quality, secure peer-to-peer video meetings.</span>
                 </div>
